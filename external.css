@@ -1,0 +1,55 @@
+
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+/*remove font family from your files use this one only*/
+body{
+    font-family: Arial;
+    background-color: white;
+}
+
+footer {
+    background-color: #333; /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+    padding: 20px 0; /* Add padding to the top and bottom */
+
+ 
+   text-align: center;  
+}
+
+.footer-content {
+    max-width: 100%; /* Set maximum width for content */
+    margin: 0 auto; /* Center align content horizontally */
+}
+
+.footer-content p {
+    margin: 0; /* Remove default margin for paragraphs */
+}
+
+.footer-content ul {
+    list-style-type: none; /* Remove bullet points from list */
+    padding: 0; /* Remove default padding from list */
+}
+
+.footer-content ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0; /* Remove margin from last list item */
+}
+
+.footer-content ul li a {
+    color: #fff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+

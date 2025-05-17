@@ -1,0 +1,81 @@
+body {
+  background-image: url("images/im1/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.wellcome_massage {
+  position: relative;
+  padding: 7% 15%;
+  text-align: center;
+  color:black;
+  -webkit-text-stroke-width: 0.4px;
+  -webkit-text-stroke-color: white;
+  font-family: Arial;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.gallary {
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  top: 40px;
+  overflow: auto;
+  margin-bottom: 200px;
+}
+
+.images {
+  position: relative;
+  width: 35%;
+  height: auto;
+  float: left;
+  margin-left: 10%;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border: 4px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.534), 0 8px 22px 0 rgb(8, 8, 8);
+  transition: 1s;
+}
+.images:hover {
+	  border: 4px solid white;
+}
+
+
+.images img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.discription {
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  font-family: Arial;
+  background-color: black;
+  border-radius: 5px;
+  margin: 2px;
+}
+
+.images:hover {
+  transform: scale(1.1);
+  z-index: 2;
+}
+
+#page_editor {
+  text-align: right;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#page_editor_text {
+  color: #000;
+}
+#page_editor_text:hover {
+  color: #ff0000;
+}
